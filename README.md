@@ -4,30 +4,35 @@
 operations. It consists of several packages and classes organized to handle distinct 
 functionalities: 
 
-###1. Airlines Package: 
-• AirlineService: Manages airline related operations. 
+##1. Airlines Package: 
+• AirlineService: Manages airline related operations.
 • AirlineOperation: Handles airline operations like creating tables, inserting flight details, 
 updating flight timings, and deleting flights. 
 • Airline: Represents airline details. 
 
-###2. AirportSide Package: 
+##2. AirportSide Package: 
 •  AirportService: Governs airport authority operations. 
+
 •  AirportOperation: Controls airport operations such as creating tables, adding flights, 
 changing flight timings, altering flight destinations, and deleting flights. 
+
 •  PrintFunction: Provides methods to print flight details obtained from a ResultSet. 
-3. CustomerSide Package: 
+
+##3. CustomerSide Package: 
 •  CustomerService: Manages customer interactions and flight bookings. 
 •  CustomerBooking: Facilitates flight booking for customers based on different class 
 types. 
 •  CustomerOperation: Handles customer operations like table creation, customer data 
 insertion, and displaying customer details. 
 •  Customer: Represents customer information. 
+
 4. Main Class: 
 •  Main: Acts as the handler class that orchestrates the application. 
 •  Loads connection properties from `connection.properties` for database connections 
 to airlines, airports, and customers. 
 •  Based on user input, instantiates the appropriate service class for airline admin, airport 
-authority, or customer roles and executes corresponding functionalities. 
+authority, or customer roles and executes corresponding functionalities.
+ 
 Functionality Highlights: 
 Airline Operations: Allows airline admins to manage flights, modify flight details, and perform 
 database operations related to airlines. 
